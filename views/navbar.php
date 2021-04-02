@@ -1,6 +1,6 @@
 <nav class="light-green lighten-4">
     <div class="nav-wrapper">
-        <a href="index.php" class="left black-text" id="logo">chevaleresk</a>
+        <a href="index.php" class="left black-text" id="logo">Chevaleresk</a>
         <a href="#" class="sidenav-trigger right black-text" data-target="mobile"><i class="material-icons">menu</i></a>
 
         <ul class="left hide-on-med-and-down">

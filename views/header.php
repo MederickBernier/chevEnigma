@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title><?php echo $title; ?></title>
 </head>
-<body>
+<body class="brown lighten-5">
 
 <?php
     include_once 'navbar.php';

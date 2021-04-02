@@ -73,7 +73,7 @@ include_once __DIR__.'/views/header.php';
                             <td>500</td>
                             <td><img class="ecu" src="assets/img/ecus.jpg"> 1.50</td>
                             <td>
-                                <a href="#" class="waves-effect waves-light btn-small">Voir la description</a> 
+                                <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> 
                                 <a href="#" class="waves-effect waves-light btn-small">Ajouter au panier</a> 
                             </td>
                         </tr>
@@ -83,7 +83,7 @@ include_once __DIR__.'/views/header.php';
                             <td>10</td>
                             <td><img class="ecu" src="assets/img/ecus.jpg"> 1500</td>
                             <td>
-                                <a href="#" class="waves-effect waves-light btn-small">Voir la description</a> 
+                                <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> 
                                 <a href="#" class="waves-effect waves-light btn-small">Ajouter au panier</a> 
                             </td>
                         </tr>
