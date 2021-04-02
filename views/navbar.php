@@ -6,6 +6,7 @@
         <ul class="left hide-on-med-and-down">
             <li><a href="about.php" class="black-text">À Propos</a></li>
             <li><a href="contact.php" class="black-text">Contact</a></li>
+            <li><a href="market.php" class="black-text">Marché</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
             <li><a href="login.php" class="black-text">Connexion</a></li>
@@ -16,6 +17,7 @@
 
 <ul class="sidenav" id="mobile">
     <li><a href="about.php">À Propos</a></li>
+    <li><a href="market.php">Marché</a></li>
     <li><a href="contact.php">Contact</a></li>
     <li><a href="login.php">Connexion</a></li>
     <li><a href="register.php">Créer un compte</a></li>
