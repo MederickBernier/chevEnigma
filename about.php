@@ -1,5 +1,5 @@
 <?php
-$title = "chevaleresk - À Propos";
+$title = "Chevaleresk - À Propos";
 
 include_once __DIR__.'/views/header.php';
 ?>

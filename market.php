@@ -1,10 +1,10 @@
 <?php
-$title = "chevaleresk - Créer un compte";
+$title = "Chevaleresk - Marché";
 
 include_once __DIR__.'/views/header.php';
 ?>
 
-<div class="row z-depth-3">
+<div id="marketBody" class="row z-depth-3">
     <div class="col s12 m12 l12">
         <div class="row">
             <div class="col s12 m6 l6">

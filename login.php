@@ -1,5 +1,5 @@
 <?php
-$title = "chevaleresk - Connexion";
+$title = "Chevaleresk - Connexion";
 
 include_once __DIR__.'/views/header.php';
 ?>
