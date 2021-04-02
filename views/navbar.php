@@ -10,7 +10,7 @@
         </ul>
         <ul class="right hide-on-med-and-down">
             <li><a href="login.php" class="black-text">Connexion</a></li>
-            <li><a href="register.php" class="black-text">Créer un compte</a></li>
+            <li><a href="register.php" class="black-text">Créer un compte</a></li>           
         </ul>
     </div>
 </nav>
