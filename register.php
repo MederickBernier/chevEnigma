@@ -1,5 +1,5 @@
 <?php
-$title = "chevalresk - Créer un compte";
+$title = "chevaleresk - Créer un compte";
 
 include_once __DIR__.'/views/header.php';
 ?>

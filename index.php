@@ -1,12 +1,12 @@
 <?php
-$title = "chevalresk - Application";
+$title = "chevaleresk - Application";
 
 include_once __DIR__.'/views/header.php';
 ?>
 
 <div class="row z-depth-3">
     <div class="col s12 m12 l12">
-        <img id="chevalreskImg" src="assets/img/chevalresk200.png"/>
+        <img id="chevalereskImg" src="assets/img/chevaleresk200.png"/>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus, nisl nec pretium ornare, turpis ligula vestibulum mauris, et dictum sem metus non lectus. Proin tortor enim, tincidunt a ligula sollicitudin, euismod venenatis ante. Nam a elementum ipsum. Integer rhoncus consequat pulvinar. Donec sollicitudin, quam id pulvinar gravida, urna nulla euismod elit, non suscipit dolor sapien vitae sapien. Sed ac vehicula diam. Curabitur nulla sapien, bibendum at posuere a, fermentum nec nibh.</p>
 
