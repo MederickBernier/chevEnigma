@@ -88,16 +88,20 @@ class dataAccess{
         if(is_null($this->instance)){
             $mysqli = new mysqli($this->host, $this->user, $this->password, $this->database);
             if(mysqli_connect_errno){
-                return false;
+                return null;
             }else{
                 setInstance($mysqli);
-                return true;
+                return $this->instance;
             }
+        }else{
+            return $this->instance;
         }
     }
 
     public function closeDb(){
-        $this->instance->close();
+        if(!is_null($this->instance)){
+            $this->instance->close();
+        }
     }
     #endregion
 
