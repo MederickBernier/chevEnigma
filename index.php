@@ -13,9 +13,12 @@ include_once __DIR__.'/views/header.php';
     </div>
     <div class="row">
         <div class="col s12 m12 l12">
-            <a class="waves-effect waves-light btn-large teal white-text" href="login.php"><i class="material-icons">cloud</i> Connectez vous</a>
-            <a class="waves-effect waves-light btn-large teal white-text" href="register.php"><i class="material-icons">app_registration</i> Enregistrez vous</a>
-            <a class="waves-effect waves-light btn-large teal white-text" href="market.php"><i class="material-icons">store</i> Accédez au marché</a>
+            <a class="waves-effect waves-light btn-large deep-orange darken-4 white-text" href="login.php"><i class="material-icons">cloud</i> Connectez vous</a>
+            <a class="waves-effect waves-light btn-large blue-grey darken-2 white-text" href="register.php"><i class="material-icons">app_registration</i> Enregistrez vous</a>
+            <a class="waves-effect waves-light btn-large brown darken-1 white-text" href="market.php"><i class="material-icons">store</i> Accéder au marché</a>
+        </div>
+        <div class="col s12 m12 l12">
+            <p>Présentation du site</p>
         </div>
     </div>
 </div>

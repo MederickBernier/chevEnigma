@@ -83,4 +83,39 @@ class dataAccess{
     }
     #endregion
 
+    #region Database Functions
+    public function connect(){
+        if(is_null($this->instance)){
+            $mysqli = new mysqli($this->host, $this->user, $this->password, $this->database);
+            if(mysqli_connect_errno){
+                return false;
+            }else{
+                setInstance($mysqli);
+                return true;
+            }
+        }
+    }
+
+    public function closeDb(){
+        $this->instance->close();
+    }
+    #endregion
+
+    #region Login Functions
+    #endregion
+
+    #region Market Functions
+    #endregion
+
+    #region Comments Function
+    #endregion
+
+    #region Review Functions
+    #endregion
+
+    #region Items Functions
+    #endregion
+
+    #region Admin Functions
+    #endregion
 }
