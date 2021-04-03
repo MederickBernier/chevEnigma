@@ -8,7 +8,7 @@ include_once __DIR__.'/views/header.php';
     <div class="col s12 m12 l12">
         <div class="row">
             <div class="col s12 m6 l6">
-                <h4>Bienvenue sur le Marché</h4>
+                <h4>Marché Chevaleresk</h4>
             </div> 
             <div class="col s12 m6 l6">
                 <nav>
@@ -37,7 +37,7 @@ include_once __DIR__.'/views/header.php';
                         <div class="col s12 m6 l6">
                             <p>
                                 <label>
-                                    <input name="filter" type="radio" name="alphabetical" checked">
+                                    <input name="filter" type="radio" name="alphabetical" checked>
                                     <span>Ordre Alphabétique</span>
                                 </label>
                             </p>
