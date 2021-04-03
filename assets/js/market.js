@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var query = document.getElementById("marketSearch").value;
 
-    var dataString = "query="+query;
+    var dataString = "name="+query;
 
     $(function(){
         $.ajax({
@@ -23,3 +23,17 @@ $(document).ready(function(){
         });
     });
 });
+
+function changeTextOnSearch(){
+    var x = document.getElementById("marketSearch").value;
+
+    var text = "";
+
+    if(x == ""){
+        text = "Résultats de la recherche";
+    }else{
+        text = "Résultats pour: " + x;
+    }
+
+    document.getElementById("searchMessage").innerHTML = text;
+}

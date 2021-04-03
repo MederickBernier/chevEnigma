@@ -15,7 +15,7 @@ include_once __DIR__.'/views/header.php';
                     <div class="nav-wrapper teal lighten-4">
                         <form>
                             <div class="input-field">
-                                <input id="marketSearch" type="search" required class="autocomplete" name="query" autocomplete="off">
+                                <input id="marketSearch" type="search" required class="autocomplete" name="query" autocomplete="off" oninput="changeTextOnSearch()">
                                 <label class="label-icon" for="marketSearch"><i class="material-icons black-text">search</i></label>
                                 <i class="material-icons black-text">close</i>
                             </div>
@@ -27,14 +27,14 @@ include_once __DIR__.'/views/header.php';
         <div class="divider"></div>
         <div class="row">
             <div class="col s12 m12 l12">
-                <h4 class="center-align">Résultats de la recherche</h4>
+                <h4 id="searchMessage" class="center-align">Résultats de la recherche</h4>
             </div>
             <div class="col s12 m12 l12">
                 <h5>Filtres de recherche</h5>
                 <div class="row">
                     <div class="col s12 m12 l12">
                         <form>
-                        <div class="col s12 m6 l6">
+                        <div class="col s12 m4 l4">
                             <p>
                                 <label>
                                     <input name="filter" type="radio" name="alphabetical" checked>
@@ -42,11 +42,19 @@ include_once __DIR__.'/views/header.php';
                                 </label>
                             </p>
                         </div>
-                        <div class="col s12 m6 l6">
+                        <div class="col s12 m4 l4">
                             <p>
                                 <label>
                                     <input name="filter" type="radio" name="pricing">
                                     <span>Ordre de prix</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <p>
+                                <label>
+                                    <input name="filter" type="radio" name="bothSorting">
+                                    <span>Ordre Alphabétique et Prix</span>
                                 </label>
                             </p>
                         </div>
