@@ -15,7 +15,7 @@ include_once __DIR__.'/views/header.php';
                     <div class="nav-wrapper teal lighten-4">
                         <form>
                             <div class="input-field">
-                                <input id="marketSearch" type="search" required autocomplete="off">
+                                <input id="marketSearch" type="search" required class="autocomplete" name="query" autocomplete="off">
                                 <label class="label-icon" for="marketSearch"><i class="material-icons black-text">search</i></label>
                                 <i class="material-icons black-text">close</i>
                             </div>
@@ -96,6 +96,8 @@ include_once __DIR__.'/views/header.php';
         </div>
     </div>
 </div>
+
+<script src="assets/js/market.js"></script>
 
 <?php
 include_once __DIR__.'/views/footer.php';
