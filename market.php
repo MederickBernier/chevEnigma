@@ -33,32 +33,32 @@ include_once __DIR__.'/views/header.php';
         <div class="row">
             <ul class="collapsible">
                 <li>
-                    <div class="collapsible-header"><i class="material-icons">filter_list</i> Filtres</div>
-                    <div class="collapsible-body">
+                    <div class="brown lighten-4 collapsible-header"><i class="material-icons">filter_list</i> <h5>Filtres</h5></div>
+                    <div class="collapsible-body brown lighten-5">
                         <div class="row">
                             <form action="#">
                                 <div class="col s12 m3 l3">
                                     <p>
                                         <input name="filters" type="radio" checked>
-                                        <span>Tri par Type</span>
+                                        <span> par Type</span>
                                     </p>
                                 </div>
                                 <div class="col s12 m3 l3">
                                     <p>
                                         <input name="filters" type="radio">
-                                        <span>Tri par Ordre Alphabétique</span>
+                                        <span> par Ordre Alphabétique</span>
                                     </p>
                                 </div>
                                 <div class="col s12 m3 l3">
                                     <p>
                                         <input name="filters" type="radio">
-                                        <span>Tri par Ordre de Prix</span>
+                                        <span> par Ordre de Prix</span>
                                     </p>
                                 </div>
                                 <div class="col s12 m3 l3">
                                     <p>
                                         <input name="filters" type="radio">
-                                        <span>Tri par Type suivi d'Alphabétique suivi de prix</span>
+                                        <span> par Type suivi d'Alphabétique suivi de Prix</span>
                                     </p>
                                 </div>
                             </form>

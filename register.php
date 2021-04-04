@@ -6,7 +6,7 @@ include_once __DIR__.'/views/header.php';
 
 <div class="row z-depth-3">
     <div class="col s12 m12 l12">
-        Register here
+        tons of forms to be able to register people around here.
     </div>
 </div>
 
