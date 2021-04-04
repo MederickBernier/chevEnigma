@@ -27,46 +27,7 @@ include_once __DIR__.'/views/header.php';
         <div class="divider"></div>
         <div class="row">
             <div class="col s12 m12 l12">
-                <h4 id="searchMessage" class="center-align">Résultats de la recherche</h4>
-            </div>
-            <div class="col s12 m12 l12">
-                <h5>Filtres de recherche</h5>
-                <div class="row">
-                    <div class="col s12 m12 l12">
-                        <form>
-                        <div class="col s12 m4 l4">
-                            <p>
-                                <label>
-                                    <input name="filter" type="radio" name="alphabetical" checked>
-                                    <span>Ordre Alphabétique</span>
-                                </label>
-                            </p>
-                        </div>
-                        <div class="col s12 m4 l4">
-                            <p>
-                                <label>
-                                    <input name="filter" type="radio" name="pricing">
-                                    <span>Ordre de prix</span>
-                                </label>
-                            </p>
-                        </div>
-                        <div class="col s12 m4 l4">
-                            <p>
-                                <label>
-                                    <input name="filter" type="radio" name="bothSorting">
-                                    <span>Ordre Alphabétique et Prix</span>
-                                </label>
-                            </p>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="divider"></div>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <table class="centered responsive-table">
+                <table class="centered responsive-table tablesorter" id="marketTable">
                     <thead>
                         <th scope="col">Image</th>
                         <th scope="col">Nom de l'item</th>
