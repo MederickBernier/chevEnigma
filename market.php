@@ -27,7 +27,7 @@ include_once __DIR__.'/views/header.php';
         <div class="divider"></div>
         <div class="row">
             <div class="col s12 m12 l12">
-                <table class="centered responsive-table tablesorter" id="marketTable">
+                <table class="centered responsive-table" id="marketTable">
                     <thead>
                         <th scope="col">Image</th>
                         <th scope="col">Nom de l'item</th>

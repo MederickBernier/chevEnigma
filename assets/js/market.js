@@ -26,9 +26,9 @@
 }); */
 
 function changeTextOnSearch(){
-    var x = document.getElementById("marketSearch").value;
+    let x = document.getElementById("marketSearch").value;
 
-    var text = "";
+    let text = "";
 
     if(x == ""){
         text = "Résultats de la recherche";
