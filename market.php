@@ -38,10 +38,10 @@ include_once __DIR__.'/views/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Image</td>
+                            <td>Image 1</td>
                             <td>Item 1</td>
                             <td>500</td>
-                            <td><img class="ecu" src="assets/img/ecus.jpg"> 1.50</td>
+                            <td><img class="ecu" src="assets/img/ecus.png"> 1.50</td>
                             <td>1.25 / 5</td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> 
@@ -49,10 +49,10 @@ include_once __DIR__.'/views/header.php';
                             </td>
                         </tr>
                         <tr>
-                            <td>Image</td>
+                            <td>Image 2</td>
                             <td>Item 2</td>
                             <td>10</td>
-                            <td><img class="ecu" src="assets/img/ecus.jpg"> 1500</td>
+                            <td><img class="ecu" src="assets/img/ecus.png"> 1500</td>
                             <td>3.5 / 5</td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> 
