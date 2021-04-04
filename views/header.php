@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href='assets/css/site.css'>
     <link rel="stylesheet" href="assets/css/materialize.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title><?php echo $title; ?></title>
 </head>
 <body class="brown lighten-5">
