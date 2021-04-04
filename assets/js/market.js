@@ -1,3 +1,4 @@
+//autocomplete still isn't working, but i'll find something around.
 $(document).ready(function(){
     var query = document.getElementById("marketSearch").value;
 
