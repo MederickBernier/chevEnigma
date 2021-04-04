@@ -27,14 +27,57 @@ include_once __DIR__.'/views/header.php';
         <div class="divider"></div>
         <div class="row">
             <div class="col s12 m12 l12">
+                <h5 class="center-align">Filtres de Recherche</h5>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">filter_list</i> Filtres</div>
+                    <div class="collapsible-body">
+                        <div class="row">
+                            <form action="#">
+                                <div class="col s12 m3 l3">
+                                    <p>
+                                        <input name="filters" type="radio" checked>
+                                        <span>Tri par Type</span>
+                                    </p>
+                                </div>
+                                <div class="col s12 m3 l3">
+                                    <p>
+                                        <input name="filters" type="radio">
+                                        <span>Tri par Ordre Alphabétique</span>
+                                    </p>
+                                </div>
+                                <div class="col s12 m3 l3">
+                                    <p>
+                                        <input name="filters" type="radio">
+                                        <span>Tri par Ordre de Prix</span>
+                                    </p>
+                                </div>
+                                <div class="col s12 m3 l3">
+                                    <p>
+                                        <input name="filters" type="radio">
+                                        <span>Tri par Type suivi d'Alphabétique suivi de prix</span>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12 m12 l12">
                 <table class="centered responsive-table" id="marketTable">
                     <thead>
-                        <th scope="col">Image</th>
-                        <th scope="col">Nom de l'item</th>
-                        <th scope="col">Quantité en Inventaire</th>
-                        <th scope="col">Prix Unitaire</th>
-                        <th scope="col">Critique</th>
-                        <th scope="col">Options</th>
+                        <th>Image</th>
+                        <th>Nom de l'item</th>
+                        <th>Quantité en Inventaire</th>
+                        <th>Prix Unitaire</th>
+                        <th>Critique</th>
+                        <th>Options</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -65,8 +108,6 @@ include_once __DIR__.'/views/header.php';
         </div>
     </div>
 </div>
-
-<script src="assets/js/market.js"></script>
 
 <?php
 include_once __DIR__.'/views/footer.php';
