@@ -60,14 +60,6 @@ include_once __DIR__.'/views/header.php';
     </div>
 </div>
 
-<script>
-    $('input#confirmPassword').blur(function(){
-        if($(input#password).attr('value') != $('input#confirmPassword').attr('value')){
-            alert("Confirm Password isn't the same as Password")
-        }
-    });
-</script>
-
 <?php
 include_once __DIR__.'/views/footer.php';
 ?>
