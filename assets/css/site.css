@@ -25,3 +25,12 @@
 #marketBody{
     padding:5px;
 }
+
+.error{
+    color:red;
+    font-weight:bolder;
+}
+
+.hidden{
+    display:none;
+}
