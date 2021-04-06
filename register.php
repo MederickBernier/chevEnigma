@@ -9,7 +9,7 @@ include_once __DIR__.'/views/header.php';
         <div class="row">
             <h3 class="center-align">Enregistrer un Compte sur Chevaleresk</h3>
         </div>
-        <form id="registerForm">
+        <form id="registerForm" action="src/users/registerUsers.php" method="POST">
             <div class="row">
                 <div class="col s12 m12 l12">
                     <div class="input-field s12 l12 m12">
@@ -52,7 +52,7 @@ include_once __DIR__.'/views/header.php';
             </div>
             <div class="row center-align">
                 <div class="col s12 m12 l12">
-                    <button class="waves-effect waves-light btn green" type="submit" name="saveNewUser">Enregistrer</button>
+                    <button class="waves-effect waves-light btn green" type="submit">Enregistrer</button>
                     <button href="javasript:void(0)" class="waves-effect waves-light btn red darken-4" onclick="resetRegisterForm()">Effacer le Formulaire</button>
                 </div>
             </div>

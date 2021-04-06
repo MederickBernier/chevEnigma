@@ -10,3 +10,18 @@ function compareCurrentPage(string $page){
         return false;
     }
 }
+
+function refererVerificator(string $page){
+    $ref = in_array("HTTP_REFERER",$_SERVER) ? parse_url($_SERVER["HTTP_REFERER"]) : null;
+    if(is_null($ref) || empty($ref)){
+        return false;
+    }else{
+        $refPage = substr($ref["path"],12);
+
+        if($page === $refPage){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}

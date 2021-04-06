@@ -39,7 +39,7 @@ class dataAccess{
     #endregion
 
     #region Constructor
-    public function __construct(string $user, string $host, string $password, string $database, array $datas = null){
+    public function __construct(string $user, string $host, string $password, string $database, ?array $datas = null){
         if(is_null($datas)){
             !empty($user) ? setUser($user) : setUser();
             !empty($host) ? setHost($host) : setHost();
@@ -106,6 +106,9 @@ class dataAccess{
     #endregion
 
     #region Login Functions
+    #endregion
+
+    #region Register Functions
     #endregion
 
     #region Market Functions
