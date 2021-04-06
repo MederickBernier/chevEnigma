@@ -12,3 +12,9 @@ function connect(){
         echo "Failed to connect to database";
     }
 }
+
+function usable(){
+    if(is_null($instance)){
+        connect();
+    }
+}
