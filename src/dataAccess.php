@@ -14,7 +14,7 @@ function connect(){
 }
 
 function usable(){
-    if(is_null($instance)){
+    if(is_null($instance) || empty($instance)){
         connect();
     }
 }
