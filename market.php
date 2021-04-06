@@ -86,7 +86,7 @@ include_once __DIR__.'/views/header.php';
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Image 1</td>
+                            <td>Image 1</td><!-- here the image will have a class of marketImg to be able to format it on the size property -->
                             <td>Item 1</td>
                             <td>500</td>
                             <td><img class="ecu" src="assets/img/ecus.png"> 1.50</td>
@@ -105,7 +105,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                         </tr>
                         <tr>
-                            <td>Image 2</td>
+                            <td>Image 2</td> <!-- here the image will have a class of marketImg to be able to format it on the size property -->
                             <td>Item 2</td>
                             <td>10</td>
                             <td><img class="ecu" src="assets/img/ecus.png"> 1 500</td>
@@ -124,7 +124,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                         </tr>
                         <tr>
-                            <td>Image 3</td>
+                            <td>Image 3</td><!-- here the image will have a class of marketImg to be able to format it on the size property -->
                             <td>Item 3</td>
                             <td>1000</td>
                             <td><img class="ecu" src="assets/img/ecus.png"> 15</td>
@@ -143,7 +143,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                         </tr>
                         <tr>
-                            <td>Image 4</td>
+                            <td>Image 4</td><!-- here the image will have a class of marketImg to be able to format it on the size property -->
                             <td>Item 4</td>
                             <td>1</td>
                             <td><img class="ecu" src="assets/img/ecus.png"> 15 000</td>
