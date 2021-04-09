@@ -101,7 +101,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> &nbsp;&nbsp;&nbsp;
-                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add</i></a> 
+                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add_shopping_cart</i></a> 
                             </td>
                         </tr>
                         <tr>
@@ -120,7 +120,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> &nbsp;&nbsp;&nbsp;
-                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add</i></a> 
+                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add_shopping_cart</i></a> 
                             </td>
                         </tr>
                         <tr>
@@ -139,7 +139,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> &nbsp;&nbsp;&nbsp;
-                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add</i></a> 
+                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add_shopping_cart</i></a> 
                             </td>
                         </tr>
                         <tr>
@@ -158,7 +158,7 @@ include_once __DIR__.'/views/header.php';
                             </td>
                             <td>
                                 <a href="#" class="waves-effect waves-light light-blue ligten-4 btn-small">Voir la description</a> &nbsp;&nbsp;&nbsp;
-                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add</i></a> 
+                                <a href="#" class="tooltipped waves-effect waves-circle waves-light btn-floating center-align" data-position="bottom" data-tooltip="Ajouter au panier"><i class="material-icons">add_shopping_cart</i></a> 
                             </td>
                         </tr>
                     </tbody>
