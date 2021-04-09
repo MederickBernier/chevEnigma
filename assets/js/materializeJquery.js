@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.collapsible').collapsible();
-    $('.tooltipped').tooltip();
+    $('.sidenav').sidenav();    //Sidenav
+    $('.collapsible').collapsible();    //Collapsible
+    $('.tooltipped').tooltip();     // Tooltips
 });
